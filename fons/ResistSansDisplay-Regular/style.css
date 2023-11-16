@@ -1,9 +1,0 @@
-@font-face {
-    font-family: 'Resist Sans';
-    src: local('Resist Sans Display Regular'), local('Resist-Sans-Display-Regular'),
-        url('ResistSansDisplay-Regular.woff2') format('woff2'),
-        url('ResistSansDisplay-Regular.woff') format('woff'),
-        url('ResistSansDisplay-Regular.ttf') format('truetype');
-    font-weight: 400;
-    font-style: normal;
-  }

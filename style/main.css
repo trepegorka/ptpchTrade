@@ -1,11 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900;1000&display=swap');
 
-@font-face {
-    font-family: 'Resist Sans';
-    src: url('fons/ResistSansDisplay-Regular/ResistSans.woff2') format('woff2'),
-    url('fons/ResistSansDisplay-Regular/ResistSans.woff') format('woff'),
-    url('fons/ResistSansDisplay-Regular/ResistSans.ttf') format('truetype');
-}
 
 * {
     box-sizing: border-box;
@@ -248,9 +242,10 @@ h1 {
 }
 
 @media screen and (max-width: 768px) {
-    .sec5{
+    .sec5 {
         margin-bottom: 50px;
     }
+
     .sec5 {
         padding: 0px;
     }
@@ -275,6 +270,15 @@ h1 {
     backdrop-filter: blur(10px);
     border-radius: 20px;
     margin: 6px 0;
+}
+
+@media screen and (max-width: 768px) {
+    .block_green {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 ._num_box {
@@ -462,7 +466,7 @@ h1 {
 .page {
 }
 
-.page-1{
+.page-1 {
     margin-top: 120px;
     margin-bottom: 50px;
 }
@@ -573,18 +577,19 @@ h1 {
 }
 
 @media screen and (max-width: 768px) {
-    .page-3-end{
+    .page-3-end {
         margin-top: 25px;
         padding: 0;
     }
 }
 
 @media screen and (min-width: 768px) {
-    .page-3-end{
+    .page-3-end {
         background-color: rgba(35, 75, 27, 0.24);
         backdrop-filter: blur(10px);
     }
 }
+
 .sec6-7 {
     margin-bottom: 50px;
 }
@@ -593,7 +598,7 @@ h1 {
     white-space: nowrap;
 }
 
-.page_6{
+.page_6 {
     padding: 0;
     justify-content: center;
     margin: 0 0 50px 0;
@@ -635,7 +640,7 @@ h1 {
     background: url("/images/investor.png") center center / cover no-repeat;
 }
 
-.p3-img{
+.p3-img {
 }
 
 
@@ -694,7 +699,7 @@ h1 {
 
 @media screen and (min-width: 992px) {
     .p6_block {
-      padding: 25px;
+        padding: 25px;
     }
 }
 
@@ -781,13 +786,25 @@ h1 {
 
 }
 
-.bimbim{
+.bimbim {
     color: #6FFF31;
     margin-bottom: 50px;
 }
 
 @media screen and (min-width: 768px) {
-    .bimbim{
+    .bimbim {
         display: none;
     }
 }
+
+.footer {
+    -webkit-box-shadow: 0px 14px 28px 3px rgba(110, 251, 86, 1);
+    -moz-box-shadow: 0px 14px 28px 3px rgba(110, 251, 86, 1);
+    box-shadow: 0px 14px 28px 3px rgba(110, 251, 86, 1);
+}
+
+.question a{
+    text-decoration: none;
+    color: white;
+}
+
